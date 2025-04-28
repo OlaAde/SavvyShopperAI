@@ -1,0 +1,681 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Car Listings Report</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-gray-50 text-gray-800 font-sans leading-relaxed p-8">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-4xl font-extrabold text-center text-blue-800 mb-8">🚗 Car Listings Report</h1>
+
+            <div class="bg-green-100 border-l-4 border-green-500 text-green-700 p-4 mb-12 shadow rounded-lg max-w-2xl mx-auto">
+                <p class="text-lg">
+                    💡 <strong>Expert Suggested Maximum Price:</strong>
+                    <span class="text-green-800 font-semibold text-xl">765.000 TL TL</span>
+                </p>
+            </div>
+
+            
+        <div class="my-10">
+            <h2 class="text-2xl font-bold text-blue-600 mb-4">Top 10 Cheapest Listings</h2>
+            <div class="overflow-x-auto shadow rounded-lg">
+                <table class="min-w-full text-sm text-left border border-gray-300 bg-white">
+                    <thead class="bg-blue-100">
+                        <tr><th class='px-4 py-2 border'>id</th><th class='px-4 py-2 border'>baslik</th><th class='px-4 py-2 border'>marka</th><th class='px-4 py-2 border'>model</th><th class='px-4 py-2 border'>motor</th><th class='px-4 py-2 border'>renk</th><th class='px-4 py-2 border'>yil</th><th class='px-4 py-2 border'>kilometre</th><th class='px-4 py-2 border'>fiyat</th><th class='px-4 py-2 border'>tarih</th><th class='px-4 py-2 border'>adres</th><th class='px-4 py-2 border'>resim_url</th><th class='px-4 py-2 border'>ilan_url</th><th class='px-4 py-2 border'>Negotiation</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>472</td><td class='px-4 py-2 border align-top'>VAV OTO / 2019 EGEA 1.4 LPG / TAKSİ ÇIKMASI</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy Plus</td><td class='px-4 py-2 border align-top'>Sarı</td><td class='px-4 py-2 border align-top'>2019</td><td class='px-4 py-2 border align-top'>701000</td><td class='px-4 py-2 border align-top'>315000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulSancaktepe</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/15/03/65/lthmb_1105150365kuo.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-vav-oto-2019-egea-1.4-lpg-taksi-cikmasi-1105150365/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Merhaba,
+
+VAV OTO listingsunu gördüm ve sizin aracınızı gerçekten ilgi çekici buldum. Listelenen fiyatınız 315.000 TL'dir. Benim için iyi bir teklifte bulunmak istiyorum: 289.800 TL'dir. Sizin aracınıza büyük ilgi duyuyorum ve hızlı bir şekilde işlem yapmak istiyordum. Umarım kabul edersiniz.
+
+(Hello,
+
+I saw your VAV OTO listing and I really find your car interesting. Your listed price is 315,000 TL. I would like to make a good offer: 289,800 TL. I have great interest in your car and I want to complete the transaction quickly. Hopefully you will accept.
+
+Translation)
+
+Please let me know if this meets your expectations!"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>283</td><td class='px-4 py-2 border align-top'>sıfır motor yapıldı</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Sarı</td><td class='px-4 py-2 border align-top'>2019</td><td class='px-4 py-2 border align-top'>1000000</td><td class='px-4 py-2 border align-top'>335000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulSultanbeyli</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/06/55/12/lthmb_1240065512ds3.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-sifir-motor-yapildi-1240065512/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat araç listesini gördüğümde ilgim çekildi ve hemen irtibata geçmek istedim. Listelenen fiyata (335.000 TL) göre, fiyat beklentiminin biraz daha düşük olduğunu söylemeliyim. Ben size 308.200 TL'den teklif ediyorum. Sizin aracınızın iyi durumda olduğundan eminim ve bu fiyattan da satılmasını istiyorum. Hemen işlem tamamlamak isteyeceğim.
+
+Teşekkür ederim,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>245</td><td class='px-4 py-2 border align-top'>AKYOL TAKSİ 'DEN - 2019 DİZEL 1.3 EGEA URBAN PLUS TAKSİ ÇIKMASI</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Sarı</td><td class='px-4 py-2 border align-top'>2019</td><td class='px-4 py-2 border align-top'>585000</td><td class='px-4 py-2 border align-top'>345000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulBağcılar</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/09/78/37/lthmb_124009783725d.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-akyol-taksi-den-2019-dizel-1.3-egea-urban-plus-taksi-cikmasi-1240097837/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message:
+
+Selam,
+Fiat Egea Urban Plus taksi listingini gördüm ve ilgi duydum. Listelenen fiyatınız 345.000 TL'dir, ancak biraz daha düşük bir fiyat arıyorum. Benim size önerim 317.400 TL'dir. Size garanti ediyorum ki, eğer bu fiyatı kabul ederseniz, işlem kısa sürede tamamlayacağım. Çözümşürüktürün.
+
+Translation:
+
+Hello,
+I saw your Fiat Egea Urban Plus taxi listing and I'm interested. Your listed price is 345,000 TL, but I'm looking for a slightly lower price. My offer is 317,400 TL. I assure you that if you accept this price, the process will be completed quickly. Thank you.
+
+Let me know if you'd like any changes!"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>357</td><td class='px-4 py-2 border align-top'>2021 EGEA TAMAMINA KREDİ</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2020</td><td class='px-4 py-2 border align-top'>420000</td><td class='px-4 py-2 border align-top'>395000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>NiğdeBor</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/01/18/33/lthmb_1240011833xtg.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-2021-egea-tamamina-kredi-1240011833/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Merhaba,
+
+Egea Tamamına Kredi listing'inizi gördüm ve ilgi duymaya başladı. Listelenen fiyata (395.000 TL) göre, aracın fiyatını 363.400 TL olarak teklif ediyorum. Benim için ciddi bir alıcı olmam ve hızlı bir şekilde işlem yapmeyi planlıyorum. Lütfen bu teklif üzerine düşünün ve bana geri bildirimde bulun.
+
+Çok teşekkür ederim,
+[Your Name]
+
+(Translation: &quot;Hello, I saw your listing for Egea Tamamına Kredi and got interested. Based on the listed price (395.000 TL), I'm offering 363.400 TL for the car. As a serious buyer, I plan to complete the transaction quickly. Please consider this offer and get back to me with your feedback.&quot;)"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>599</td><td class='px-4 py-2 border align-top'>ÖZKARDEŞLER AUTO DAN PEŞİNATSIZ TAMAMINA KREDİLİ TABLET EKRAN</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2019</td><td class='px-4 py-2 border align-top'>150000</td><td class='px-4 py-2 border align-top'>427500</td><td class='px-4 py-2 border align-top'>12 Nisan  2025</td><td class='px-4 py-2 border align-top'>AdanaSeyhan</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/84/77/31/lthmb_123984773109f.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-ozkardesler-auto-dan-pesinatsiz-tamamina-kredili-tablet-ekran-1239847731/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+&quot;Merhaba, Özkardeşler Auto dan satın alınıyor tablet ekranlı Fiat 2019 modeline ilgi duyduk. Listelenen fiyatınız 427.500 TL'dir. Benim için, bu araçun değeri daha yakın 393.300 TL'ye yakın. Kendinizi ciddi bir alıcı olarak hissediyorum ve eğer teklif ettiğinizizi kabul edersek, hemen işlemimizi tamamlamaya hazırmız. Umumi olarak, aracı satın almaya hazırım. Teşekkür ederim.&quot;"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>419</td><td class='px-4 py-2 border align-top'>AYGÜN AUTO UYGUN RAKAM</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy Plus</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2020</td><td class='px-4 py-2 border align-top'>440000</td><td class='px-4 py-2 border align-top'>455000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>MardinKızıltepe</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/96/64/27/lthmb_123996642717f.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-aygun-auto-uygun-rakam-1239966427/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat 1.4 Fire Easy Plus'ını görmüş ve ciddi bir alıcı olarak ilgim çekti. Listelenen fiyat 455.000 TL'dir, ancak benim için biraz düşük bir rakam arıyorum. Benim teklif ettiğim fiyat 418.600 TL'dir. Kısa sürede satışına hazırlığımı gösteriyorum ve ödemeyi hızlı şekilde yapabilirim.
+
+Teşekkür ederim, değerlendirmeye devam edin.
+
+(Translation:
+
+Hello,
+
+I came across the Fiat 1.4 Fire Easy Plus and it caught my attention as a serious buyer. The listed price is 455,000 TL, but I'm looking for a slightly lower figure. My offer is 418,600 TL. I'm ready to complete the transaction quickly and make prompt payments.
+
+Thank you, please consider.
+
+Best regards)"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>293</td><td class='px-4 py-2 border align-top'>ERDOĞAN MOTORS'2021 EGEA 2.09 ORAN PEŞİNATSIZ TAMAMINA KREDİ</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2021</td><td class='px-4 py-2 border align-top'>400000</td><td class='px-4 py-2 border align-top'>475000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulSultangazi</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/37/01/99/lthmb_1202370199hjh.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-erdogan-motors-2021-egea-2.09-oran-pesinatsiz-tamamina-kredi-1202370199/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Merhaba,
+
+ERDOĞAN MOTORS'2021 EGEA 2.09 ORAN PEŞİNATSIZ TAMAMINA KREDİ listingsını gördüm ve gerçekten ilgimi çekti. Listelenen fiyat 475.000 TL'dir, ancak tecrübelerime göre bu araçın gerçek değeri biraz daha aşağıda olabilir. Benim için uygun bir teklif olarak 437.000 TL'yi düşünüyorum. Eğer kabul ederse, sürecini hızlıca tamamlamaya hazırlarım.
+
+Teşekkür ederim,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>402</td><td class='px-4 py-2 border align-top'>ÇELİK GROUP tan TERTEMİZ EASY PLUS</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2019</td><td class='px-4 py-2 border align-top'>230000</td><td class='px-4 py-2 border align-top'>485500</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>BursaOsmangazi</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/70/95/61/lthmb_1216709561ddz.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-celik-group-tan-tertemiz-easy-plus-1216709561/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat N/A modelinin 2019 yılından olan ÇELİK GROUP tan TERTEMİZ EASY PLUS'i çok ilgi çekici buldum. Listelenen fiyata göre (485.500 TL), elimizde bir teklif var. Benim teklifim, 446.660 TL. Ben, ciddi bir alıcı olarak, hızlı bir şekilde işlem yapmak için hazırım. Eğer teklifimizi kabul edersek, hızla işleme devam edebiliriz.
+
+Teşekkürler,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>161</td><td class='px-4 py-2 border align-top'>YAKARLAR'DAN ~ TAKASA UYGUN ~ BAKIMLARI YENİ~ FİAT EGEA</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.4 Fire Urban</td><td class='px-4 py-2 border align-top'>1.4 Fire Urban Plus</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2019</td><td class='px-4 py-2 border align-top'>209000</td><td class='px-4 py-2 border align-top'>499000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>EskişehirOdunpazarı</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/41/95/33/lthmb_1234419533o3y.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-yakarlar-dan-takasa-uygun-bakimlari-yeni-fiat-egea-1234419533/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is a polite but confident car buyer's message:
+
+&quot;Merhaba, seller'im! Benim için sizin Fiat Egea listing'iniz oldukça cazip. Listelenen fiyatınız 499.000 TL'dir, ancak benim için biraz daha düşük bir teklif sunmak isterdim. Benim için uygun fiyat 459.080 TL olurdu. Eğer bu fiyatla anlaşırızsa, hemen işlemimizi tamamlamak istiyoruz. Lütfen bunun hakkında düşünün ve geri dönüş bekliyorum.&quot;
+
+Translation:
+
+&quot;Hello, seller! Your Fiat Egea listing is quite appealing to me. Your listed price is 499,000 TL, but I'd like to make a slightly lower offer. A suitable price for me would be 459,080 TL. If we agree on this price, we'll want to complete the transaction quickly. Please consider this and let me know your thoughts.&quot;"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>739</td><td class='px-4 py-2 border align-top'>1453 MOTORS - %30 PEŞİNATLA 2019 FİAT EGEA EASY</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2019</td><td class='px-4 py-2 border align-top'>189999</td><td class='px-4 py-2 border align-top'>505453</td><td class='px-4 py-2 border align-top'>12 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulKüçükçekmece</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/33/19/54/lthmb_1234331954s15.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-1453-motors-30-pesinatla-2019-fiat-egea-easy-1234331954/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is a polite but confident message in Turkish:
+
+&quot;Merhaba, satın alma sürecine katılıp size ilgi duyduğumu belirtmek isterim. Listelenmiş fiyatin 505.453 TL olduğu görüyorum. Benzer araçlar için araştırma yapmaktan ve piyasa fiyatlarını göz önünde bulundurmadan, benim için 465.016 TL'de bir teklif sunıyorum. If you accept this offer, I'm ready to complete the transaction quickly and efficiently. Lütfen geri bildirim bekliyorum.&quot;
+
+Translation:
+
+&quot;Hello, I'd like to express my interest in purchasing your car. As I see, the listed price is 505.453 TL. After researching similar cars and considering market prices, I'm offering 465.016 TL. If you accept this offer, I'm ready to complete the transaction quickly and efficiently. Please let me know.&quot;"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            function copyToClipboard(button) {
+                const message = button.getAttribute("data-message");
+                navigator.clipboard.writeText(message).then(function() {
+                    button.innerText = "✅ Copied!";
+                    setTimeout(() => button.innerText = "📋 Copy Message", 2000);
+                });
+            }
+        </script>
+        
+            
+        <div class="my-10">
+            <h2 class="text-2xl font-bold text-blue-600 mb-4">Alternative Top 10 Newest Year Listings</h2>
+            <div class="overflow-x-auto shadow rounded-lg">
+                <table class="min-w-full text-sm text-left border border-gray-300 bg-white">
+                    <thead class="bg-blue-100">
+                        <tr><th class='px-4 py-2 border'>id</th><th class='px-4 py-2 border'>baslik</th><th class='px-4 py-2 border'>marka</th><th class='px-4 py-2 border'>model</th><th class='px-4 py-2 border'>motor</th><th class='px-4 py-2 border'>renk</th><th class='px-4 py-2 border'>yil</th><th class='px-4 py-2 border'>kilometre</th><th class='px-4 py-2 border'>fiyat</th><th class='px-4 py-2 border'>tarih</th><th class='px-4 py-2 border'>adres</th><th class='px-4 py-2 border'>resim_url</th><th class='px-4 py-2 border'>ilan_url</th><th class='px-4 py-2 border'>Negotiation</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>738</td><td class='px-4 py-2 border align-top'>2024 MODEL HATASIZ BOYASIZ EGEA 1.4 EASY FİRE MANUEL %20KDV</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>12000</td><td class='px-4 py-2 border align-top'>765000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulBağcılar</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/95/72/10/lthmb_1233957210pfb.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-2024-model-hatasiz-boyasiz-egea-1.4-easy-fire-manuel-20kdv-1233957210/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is a polite yet assertive message in Turkish:
+
+Selam, İstanbul Bağcılar'da listelenen Fiat 2024 modeline ilgi duyduğumu bildirmek istedim. Listelenen fiyatı 765.000 TL olarak görüyorum. Benzersiz bir teklifimde bulunarak 703.800 TL teklif ediyorum. Zaten satın alma sürecindeyim ve hızlı bir şekilde işlem gerçekleştireceğim. Eğer bu fiyatla anlaşabiliyorsanız, lütfen geri dönüş yapın.
+
+Translation:
+
+Hello, I wanted to inform you that I'm interested in the Fiat 2024 model listed in İstanbul Bağcılar. I see the listed price as 765.000 TL. I'd like to make a unique offer of 703.800 TL. As I'm already in the process of purchasing and aim to complete it quickly, please let me know if this price is acceptable to you."
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>517</td><td class='px-4 py-2 border align-top'>2024 Model Fiat Egea 1.4 Fire Easy 35.000 KM %1,79 Kredi İmkanı</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy Plus</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy</td><td class='px-4 py-2 border align-top'>Gri</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>35000</td><td class='px-4 py-2 border align-top'>765000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>GaziantepŞehitkamil</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/38/35/67/lthmb_1231383567dbz.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-2024-model-fiat-egea-1.4-fire-easy-35.000-km-1,79-kredi-imkani-1231383567/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat Egea listing'inizi gördüm ve ilgi duymuşum. Listelenen fiyatınız 765.000 TL'dir, ancak benim için biraz yüksek geldi. Benim için ideal fiyata yakın bir teklif olarak, 703.800 TL'i öneriyorum. Ben, ciddi bir alıcı olarak, hızlı işlem görmek istiyorum ve sizden bu teklifinizi onaylamamızı bekliyoruz. Umarım kabul ederiniz.
+
+Çok teşekkürler,
+[Your Name]
+
+(Translation:
+
+Hello,
+
+I saw your Fiat Egea listing and showed interest. Your listed price is 765,000 TL, but it seems a bit high to me. As an ideal offer close to my budget, I'm proposing 703,800 TL. As a serious buyer, I want to see a quick transaction and look forward to accepting this offer from you. Hopefully, you'll agree.
+
+Thank you very much,
+[Your Name])"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>240</td><td class='px-4 py-2 border align-top'>HATASIZ BOYASIZ TRAMERSİZ 13000 KM!!!</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>13000</td><td class='px-4 py-2 border align-top'>775000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>AntalyaManavgat</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/10/53/22/lthmb_1240105322tzn.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-hatasiz-boyasiz-tramersiz-13000-km-1240105322/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat'ın yeni modeline sahip olan arabanızın listing'ini gördüm ve ilgimi çekti. Listelenen fiyatınız 775.000 TL'dir. Benim için bir teklifim var: 713.000 TL'yi teklif ediyorum. Kısa zamanda işlemini tamamlamak istiyorum, eğer bu fiyatı kabul edersek. Kendilerini emin olurlar.
+
+(Hello,
+
+I saw your listing for the Fiat car and it caught my attention. Your listed price is 775,000 TL. I have an offer: 713,000 TL. I want to complete the transaction quickly if you accept this price. Please be assured.)
+
+Note: Sahibinden is a popular Turkish online marketplace where people buy and sell goods, including cars. The message is written in a polite and confident tone, with a focus on being clear and direct."
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>159</td><td class='px-4 py-2 border align-top'>DOĞUŞ OTO KARTAL - 2024 FIAT EGEA 1.4 FIRE BZ 95 HP EASY PLUS
+
+
+
+
+
+Yetkili Bayi</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy Plus</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>31328</td><td class='px-4 py-2 border align-top'>785000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulKartal</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/19/56/46/lthmb_1240195646bwb.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-dogus-oto-kartal-2024-fiat-egea-1.4-fire-bz-95-hp-easy-plus-1240195646/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is a polite but confident car buyer's message:
+
+&quot;Merhaba, yetkili bayı! İnternette gezdiğim listelerde sizin DOĞUŞ OTO KARTAL - 2024 FIAT EGEA 1.4 FIRE BZ 95 HP EASY PLUS'i görmedim mi? Listedeki fiyati 785.000 TL olarak gösteriliyor. Benim için fiyat biraz yüksek geldi, bu nedenle size bir teklif sunmak istedim: 722.200 TL. Açıkçası, ben ciddi bir alıcı ve hızlı bir şekilde satışın tamamlanmasını diliyorum. Eğer kabul ederse, süreci hızlandırarak birlikte çalışalım. Teşekkür ederim.&quot;
+
+Translation:
+
+&quot;Hello, authorized dealer! I couldn't help but notice your DOĞUŞ OTO KARTAL - 2024 FIAT EGEA 1.4 FIRE BZ 95 HP EASY PLUS on the internet listings? The listed price is 785.000 TL. For me, the price seems a bit high, so I'd like to make an offer: 722.200 TL. Honestly, I'm a serious buyer and want to complete the transaction quickly. If you accept, we can work together to speed up the process. Thank you!&quot;"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>373</td><td class='px-4 py-2 border align-top'>HATASIZ BOYASIZ</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.3 Multijet Urban Plus</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy</td><td class='px-4 py-2 border align-top'>Mavi</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>23000</td><td class='px-4 py-2 border align-top'>789900</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>AnkaraÇankaya</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/98/40/75/lthmb_1239984075m16.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-hatasiz-boyasiz-1239984075/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+&quot;Merhaba, ilginç bir listing buldum! Hatasız Boyasız Fiat 1.3 Multijet Urban Plus'ı görüyorum ve gerçekten ilgim çekiyor. Listelenen fiyatınız 789.900 TL'dir, fakat benim için biraz yüksek geliyor. Ben, ciddi bir alıcı olarak, 726.708 TL'i teklif ediyorum. Eğer bu fiyatla anlaşmaya izin verirseniz, hemen işlemimizi tamamlamaya hazım.&quot;
+
+Translation:
+
+&quot;Hello, I found an interesting listing! I'm looking at the Hatasız Boyasız Fiat 1.3 Multijet Urban Plus and it really caught my attention. Your listed price is 789,900 TL, but for me, it's a bit high. As a serious buyer, I'm offering 726,708 TL. If you allow me to agree on this price, I'm ready to complete the transaction quickly.&quot;"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>88</td><td class='px-4 py-2 border align-top'>KONAK OTOMOTİV'DEN HATASIZ 2024 FİAT EGEA EASY PLUS</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>26000</td><td class='px-4 py-2 border align-top'>807750</td><td class='px-4 py-2 border align-top'>30 Mart  2025</td><td class='px-4 py-2 border align-top'>ElazığMerkez</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/15/29/55/lthmb_12171529555yp.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-konak-otomotiv-den-hatasiz-2024-fiat-egea-easy-plus-1217152955/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here's a polite but confident message in Turkish:
+
+&quot;Sayın satıcıya merhaba, Konak Otomotiv'den 2024 Fiat Egea Easy Plus listelenmiştir. Benim için gerçekten ilginciktir. Listelenen fiyati 807.750 TL'dır ve benim için bu fiyat biraz yüksek görünüyor. Bu nedenle, 743.130 TL'ye teklif ediyorum. Eğer kabul ederse, işlemimizi hızlı bir şekilde tamamlamak isteriz. Teşekkür ederim.&quot;
+
+Translation:
+
+&quot;Hello esteemed seller, the 2024 Fiat Egea Easy Plus listed from Konak Otomotiv has caught my attention. For me, it's really interesting. The listed price is 807.750 TL and seems a bit high for me. Therefore, I'm offering 743.130 TL. If you accept, we'd like to complete the transaction quickly. Thank you.&quot;"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>120</td><td class='px-4 py-2 border align-top'>2024 EGEA BOYASIZ 1.4 FIRE EASY PLAS %20 KDV'Lİ BÜYÜK EKRAN</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>1.4 Fire Urban</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>24000</td><td class='px-4 py-2 border align-top'>815000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulBağcılar</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/21/73/48/lthmb_1240217348o7u.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-2024-egea-boyasiz-1.4-fire-easy-plas-20-kdv-li-buyuk-ekran-1240217348/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Merhaba, 
+
+2024 EGEA BOYASIZ 1.4 FIRE EASY PLAS %20 KDV'Lİ BÜYÜK EKRAN listelenişinin ilgilendiğimi belirtmek isterim. Listeleniş fiyatınız 815.000 TL'dir. Benim tarafımdan sunulan teklifim 749.800 TL'dir. Bu fiyatda hızlı bir işlem yapmaktan yanayım, çünkü ciddi bir alıcıyım. Dilediğiniz zaman cevap verebilirsiniz.
+
+(Translation: 
+
+Hello,
+
+I am interested in the listing of your 2024 EGEA UNPAINTED 1.4 FIRE EASY PLAS %20 KDV-LI LARGE SCREEN. Your listed price is 815,000 TL. My offer is 749,800 TL. I would like to complete a quick transaction at this price, as I am a serious buyer. You can respond whenever you like.)"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>792</td><td class='px-4 py-2 border align-top'>HATASIZZ BOYASIZZ AİLE ARACI</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>30000</td><td class='px-4 py-2 border align-top'>819000</td><td class='px-4 py-2 border align-top'>12 Nisan  2025</td><td class='px-4 py-2 border align-top'>KonyaKaratay</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/72/50/58/lthmb_12397250580s1.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-hatasizz-boyasizz-aile-araci-1239725058/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat aracınızı gördüm ve ilgimi çekti. Listelenen fiyatınız 819.000 TL'dir. Benim için oldukça makul bir fiyattır, ancak küçük bir indirim istiyorum. Önerimim 753.480 TL'dir. Hemen tamamlamak isteyeceğim bir alıcıyım, öyle ki aracın size ulaşmasını ve yeni sahibine geçmesini hızla sağlayabilirim. İletişime geçmemi bekliyor musunuz?
+
+Translation:
+
+Hello,
+
+I saw your Fiat car listing and it caught my attention. Your listed price is 819,000 TL. It's a very reasonable price for me, but I'd like to make a small discount. My offer is 753,480 TL. As a serious buyer, I'm ready to complete the transaction quickly, so that the car reaches you and new ownership can be transferred swiftly. Are you expecting my call?"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>147</td><td class='px-4 py-2 border align-top'>SÜMERHAN OTO | TAKSİCİLERE ÖZEL 2025 MODEL EGEA EASY GSR'li</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Sarı</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>820000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulKadıköy</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/20/60/67/lthmb_1240206067cth.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-sumerhan-oto-taksicilere-ozel-2025-model-egea-easy-gsr-li-1240206067/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Sizin listelenen Fiat Egea Easy GSR'li araç size cazip geliyor! Benim için fiyat olarak 820.000 TL'ye yakın bir rakam görünüyor, fakat şu anki market durumunu göz önünde bulundurarak 754.400 TL'lik teklif ediyorum. Bu fiyatın cazip olduğunu düşünüyorum ve satışını hızlı bir şekilde tamamlamak istiyorum. Ücretsiz bir muayene yapıp, araçtan memnun olmadığım takdirde geri dönüyorum. Bekliyorum cevabınızı.
+
+(Translation)
+
+Hello,
+
+Your listed Fiat Egea Easy GSR'li car catches my attention! The price of 820.000 TL looks close to what I'm expecting, but considering the current market situation, I'm offering 754.400 TL. I think this is an attractive price and I want to complete the sale quickly. If I'm not satisfied with the vehicle after a free inspection, I'll return. I look forward to your response."
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>766</td><td class='px-4 py-2 border align-top'>FALEZ Plaza'dan 2024 BEYAZ 8000 KM DE GÜVENLİK PAKET LPG EGEA</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>8000</td><td class='px-4 py-2 border align-top'>825000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>ElazığMerkez</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/11/85/24/lthmb_1240118524fex.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-falez-plaza-dan-2024-beyaz-8000-km-de-guvenlik-paket-lpg-egea-1240118524/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is a polite but confident message in Turkish:
+
+Sayın satıcım,
+
+Sizin listelenen fiyatin (825.000 TL) gözümü yakaladı. 2024 Beyaz Fiat 1.3 Multijet Easy modelinin sizinle satın alımda ilgimi çekti. Benim için uygun bir fiyat olarak, 759.000 TL'lik bir teklif sunuyorum. Bu fiyattan daha düşük olmasın, çünkü piyasada benzer araçlar bu fiyat aralığında satılıyor. Eğer kabul edersek, hemen satın alma sürecini tamamlamak istiyorum.
+
+Teşekkür ederim.
+
+Translation:
+
+Dear seller,
+
+Your listed price (825,000 TL) caught my eye. The 2024 White Fiat 1.3 Multijet Easy model interested me in purchasing from you. As a suitable price for me, I'm offering 759,000 TL. This price is not too low, as similar cars are being sold in the market at this price range. If you accept it, I would like to complete the purchase process quickly.
+
+Thank you."
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            function copyToClipboard(button) {
+                const message = button.getAttribute("data-message");
+                navigator.clipboard.writeText(message).then(function() {
+                    button.innerText = "✅ Copied!";
+                    setTimeout(() => button.innerText = "📋 Copy Message", 2000);
+                });
+            }
+        </script>
+        
+            
+        <div class="my-10">
+            <h2 class="text-2xl font-bold text-blue-600 mb-4">Top 10 Least Used Listings</h2>
+            <div class="overflow-x-auto shadow rounded-lg">
+                <table class="min-w-full text-sm text-left border border-gray-300 bg-white">
+                    <thead class="bg-blue-100">
+                        <tr><th class='px-4 py-2 border'>id</th><th class='px-4 py-2 border'>baslik</th><th class='px-4 py-2 border'>marka</th><th class='px-4 py-2 border'>model</th><th class='px-4 py-2 border'>motor</th><th class='px-4 py-2 border'>renk</th><th class='px-4 py-2 border'>yil</th><th class='px-4 py-2 border'>kilometre</th><th class='px-4 py-2 border'>fiyat</th><th class='px-4 py-2 border'>tarih</th><th class='px-4 py-2 border'>adres</th><th class='px-4 py-2 border'>resim_url</th><th class='px-4 py-2 border'>ilan_url</th><th class='px-4 py-2 border'>Negotiation</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>188</td><td class='px-4 py-2 border align-top'>hatasiz 4500de sifirdan farksiz</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2022</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>780000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>ArtvinHopa</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/32/58/61/lthmb_1237325861zsr.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-hatasiz-4500de-sifirdan-farksiz-1237325861/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Sizinki listelenen Fiat araçlarının sonuncusuna ilgi duyduk. Fiyatınız 780.000 TL ise, elimizde ki analiz doğrultusunda 717.600 TL fiyatına teklif ediyoruz. Siz de bizim gibi seri alıcılarız ve hızlı bir şekilde işlemlerinizi tamamlamak istiyoruz. Bu fiyatınuzu düşürebilirseniz, hemen harekete geçeceğiz.
+
+Teşekkür ederim.
+
+(Translation:
+
+Hello,
+
+We are interested in your listed Fiat vehicle. Your price is 780,000 TL, and based on our analysis, we would like to offer 717,600 TL. We are serious buyers and want to complete the transactions quickly. If you can consider this price, we will take immediate action.
+
+Thank you very much.)"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>147</td><td class='px-4 py-2 border align-top'>SÜMERHAN OTO | TAKSİCİLERE ÖZEL 2025 MODEL EGEA EASY GSR'li</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Sarı</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>820000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulKadıköy</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/20/60/67/lthmb_1240206067cth.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-sumerhan-oto-taksicilere-ozel-2025-model-egea-easy-gsr-li-1240206067/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message:
+
+Merhaba,
+
+Sizin listelenen Fiat Egea Easy GSR'li araçunu gördüm ve ilgi duydum. Listed fiyatınız 820.000 TL'dir. Benim için bu araç ideal bir seçimdir. Tekrar düşünmemek için, bir teklif sunmaya karar verdim: 754.400 TL. Bu fiyatla, aracın gerçek değeri ve sizin de istediğiniz gibi satılmasını umut ediyorum. Eğer kabul ederseniz, hızlı bir şekilde işlemi tamamlamak istiyorum.
+
+(Translation)
+
+Hello,
+
+I saw your listed Fiat Egea Easy GSR'li and I'm interested. Your listed price is 820,000 TL. This car is an ideal choice for me. To avoid second thoughts, I decided to make an offer: 754,400 TL. With this price, I hope the car's real value and your desired sale will be respected. If you accept, I'll aim to complete the transaction quickly.
+
+Let me know if you need any adjustments!"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>182</td><td class='px-4 py-2 border align-top'>İLK SAHİBİNDEN TERTEMİZ AİLE ARACI</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2023</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>830000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>TekirdağErgene</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/40/23/15/lthmb_1218402315ae4.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-ilk-sahibinden-tertemiz-aile-araci-1218402315/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Listenizin ilk defa dikkatimi çekti. Fiat arabanızın 2023 modeli ve 6001 kilometrelik olduğunu görüyorum. Fiyatınız 830 bin TL'dir. Benim için fiyat önemli bir faktör olmuyor, ancak sizin için de önemlidir, sanıyorum. Bana göre, birliktelik için daha uygun fiyat ofrecemeni düşünüyorum. 763 bin 600 TL'i teklif ediyorum. Hızlı bir işlem istiyorum, çünkü ciddi alıcı olarak süreci tamamlamak istiyorum.
+
+Teşekkür ederim.
+
+Translation:
+
+Hello,
+
+Your listing caught my attention for the first time. I see that your Fiat car is a 2023 model with 6,001 kilometers on it. Your price is 830,000 TL. For me, price isn't a crucial factor, but it's important for you too, I assume. In my opinion, a more suitable price would be beneficial for both of us. I'm offering 763,600 TL. I want to complete the process quickly because I'm a serious buyer and want to finalize everything.
+
+Thank you very much."
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>514</td><td class='px-4 py-2 border align-top'>nokta hatasız</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.3 Multijet Urban</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>Kahverengi</td><td class='px-4 py-2 border align-top'>2022</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>890000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>SinopBoyabat</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://s0.shbdn.com/assets/images/iconHasMegaPhotoLarge:d9417b1d5ff2b476ea61565150588a96.png" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-nokta-hatasiz-1239871797/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat 1.3 Multijet Urban 2022 modelinin listingini gördüm ve ilgimi çekti. Listelenen fiyatı 890.000 TL'dir. Benim size bir teklif götürmek istiyorum: 818.800 TL. Size göre, aracın durumunu ve kilometre sayısını göz önünde bulundurarak bu fiyatın daha uygun olacağını düşünüyorum. Kısa sürede işlem yapılmasını istiyorum; eğer teklifimi kabul edersek.
+
+Teşekkür ederim,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>323</td><td class='px-4 py-2 border align-top'>SAHİBİNDEN HATASIZ EGEA</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.4 Fire Urban</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>Mavi</td><td class='px-4 py-2 border align-top'>2023</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>895000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulMaltepe</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://s0.shbdn.com/assets/images/iconHasMegaPhotoLarge:d9417b1d5ff2b476ea61565150588a96.png" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-sahibinden-hatasiz-egea-1240034480/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Merhaba, SAHİBİNDEN HATASIZ EGEA listeleminizi gördüm ve sizin aracınızın ilgi çekici olduğunu düşünüyorum. Sizin listelenen fiyatı 895.000 TL'dir. Benim için bir teklifte bulunmak istiyorum, 823.400 TL'yi teklif ediyorum. Seri bir alıcı olarak, hızlı bir şekilde işlemlerinizi tamamlamak istiyor ve sizin aracınızı almaya hazırlığımda. İyi bir anlaşma yapalım, umarım.
+
+Translation:
+
+Hello, I saw your listing for SAHİBİNDEN HATASIZ EGEA and think your car is quite attractive. Your listed price is 895,000 TL. I'd like to make an offer, I'm offering 823,400 TL. As a serious buyer, I want to complete the transaction quickly and am ready to take your car. Let's have a good agreement, hopefully.
+
+Please note that the translation might not be perfect, but it should convey the tone and message you are looking for."
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>196</td><td class='px-4 py-2 border align-top'>2023 fiat egea sıfır kokusu üzerinde satılık</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Gri</td><td class='px-4 py-2 border align-top'>2023</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>910000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>BursaYıldırım</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/89/83/70/lthmb_1216898370r4n.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-2023-fiat-egea-sifir-kokusu-uzerinde-satilik-1216898370/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Fiat Egea listingunu görüp ilgilendiğimi ifade etmek isterim. Listelenen fiyatınız 910.000 TL'dir. Benim için bir oferta yapacağım ve fiyatımı 837.200 TL olarak belirleyeceğim. Bu fiyata karşılığında, satış işlemini hızla tamamlamaya hazım. Eğer sizin için kabul edilebilir bir teklif oluysa, lütfen bunun hakkında konuşmaya hazırım.
+
+Teşekkür ederim,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>601</td><td class='px-4 py-2 border align-top'>Sahibinden Fiat Egea 1.4 Fire Urban 2023 Model_SIFIR</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Gri</td><td class='px-4 py-2 border align-top'>2023</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>960000</td><td class='px-4 py-2 border align-top'>12 Nisan  2025</td><td class='px-4 py-2 border align-top'>KonyaAkşehir</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/53/90/64/lthmb_1228539064fgd.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-sahibinden-fiat-egea-1.4-fire-urban-2023-model_sifir-1228539064/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Selam, aracınızın listelenen fiyatı 960.000 TL'dir. Benim için oldukça cazip bir fiyattır, ancak biraz daha düşük bir fiyat arıyorum. Benim teklifim 883.200 TL'dir. Size garanti ederim ki, eğer bu fiyata kabul ederseniz, hemen anlaşma tamamlayacağım. Konya-Akşehir regionunda yaşayan biriyim ve aracın şu anki durumunu bilimsel olarak incelemiştim.
+
+Translation:
+
+Hello, the listed price of your car is 960,000 TL. It's quite attractive for me, but I'm looking for a slightly lower price. My offer is 883,200 TL. I assure you that if you accept this price, I will complete the deal immediately. I am living in the Konya-Akşehir region and have thoroughly examined the car's current condition."
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>292</td><td class='px-4 py-2 border align-top'>2024 Egea urban</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>N/A</td><td class='px-4 py-2 border align-top'>Füme</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>985000</td><td class='px-4 py-2 border align-top'>13 Nisan  2025</td><td class='px-4 py-2 border align-top'>AntalyaAlanya</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://s0.shbdn.com/assets/images/iconHasMegaPhotoLarge:d9417b1d5ff2b476ea61565150588a96.png" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-2024-egea-urban-1240061615/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Merhaba,
+
+Sizin listelenen Fiat Egea Urban'ı gördüm ve ilgimi çekti. Listeliğiniz fiyatı 985.000 TL'dir, ancak beni daha düşük bir fiyata satın almaya ikna etmek isterim. Benim teklif ettiğim fiyat 906.200 TL'dir. Sözleşmeyi hızlı tamamlamayı umuyorum, çünkü ciddi bir alıcıyım. Umarım bu teklifimi kabul edersiniz.
+
+Teşekkür ederim,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>564</td><td class='px-4 py-2 border align-top'>BOYASIZ 2024 FİAT EGEA 1.3 EASY ÇELİK JANTLI K.K 12 AY TAKSİT</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.4 Fire Street</td><td class='px-4 py-2 border align-top'>1.3 Multijet Urban</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>1035000</td><td class='px-4 py-2 border align-top'>12 Nisan  2025</td><td class='px-4 py-2 border align-top'>SinopMerkez</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://i0.shbdn.com/photos/87/04/05/lthmb_1239870405oni.jpg" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-boyasiz-2024-fiat-egea-1.3-easy-celik-jantli-k.k-12-ay-taksit-1239870405/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Merhaba, 
+
+Sahibinden'deki listelenen Fiat Egea 1.4 Fire Street'ü gördüm ve ilgimi çekti. Listelenen fiyatınız 1.035.000 TL iken, ben 952.200 TL teklifimde bulundum. Benim için çok önemli olan thing, hızlı bir şekilde transactioni tamamlamaktır. Eğer teklifiminizi kabul ederse, hemen gerekli işlemleri tamamlayacağım.
+
+Teşekkür ederim,
+[Your Name]
+
+Translation:
+
+Hello,
+
+I saw your listed Fiat Egea 1.4 Fire Street on Sahibinden and it caught my attention. Your listed price is 1,035,000 TL, but I'm offering 952,200 TL. What's most important to me is completing the transaction quickly. If you accept my offer, I'll finalize all necessary procedures immediately.
+
+Thank you,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr><tr class='hover:bg-gray-100'><td class='px-4 py-2 border align-top'>659</td><td class='px-4 py-2 border align-top'>2024 Model Egea 1.4 Fire Easy GSR</td><td class='px-4 py-2 border align-top'>Fiat</td><td class='px-4 py-2 border align-top'>1.4 Fire Easy</td><td class='px-4 py-2 border align-top'>1.3 Multijet Easy</td><td class='px-4 py-2 border align-top'>Beyaz</td><td class='px-4 py-2 border align-top'>2024</td><td class='px-4 py-2 border align-top'>6001</td><td class='px-4 py-2 border align-top'>1050000</td><td class='px-4 py-2 border align-top'>14 Nisan  2025</td><td class='px-4 py-2 border align-top'>İstanbulKartal</td><td class='px-4 py-2 border align-top'>
+                    <img src="https://s0.shbdn.com/assets/images/iconHasMegaPhotoLarge:d9417b1d5ff2b476ea61565150588a96.png" alt="Listing Image" class="w-32 h-auto rounded shadow-sm" />
+                    </td><td class='px-4 py-2 border align-top'><a href="https://www.sahibinden.com/ilan/vasita-otomobil-fiat-2024-model-egea-1.4-fire-easy-gsr-1240179519/detay" target="_blank">
+                        <button class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition">
+                            View Details
+                        </button>
+                    </a></td><td class='px-4 py-2 border align-top'>
+            <button onclick="copyToClipboard(this)" data-message="Here is the message in Turkish:
+
+Merhaba,
+
+Egea 1.4 Fire Easy GSR listelendiğiniz modelini çok dikkatle inceliyoruz. Listelenen fiyatınız 1.050.000 TL'dir. Bizim için bu aracın özellikleri ve kilometre sayısı (6001) oldukça uygun. Bununla birlikte, bizim için bu fiyata biraz indirim yapılırsa daha olumlu bir karar verebiliriz. Bu sebeple, 966.000 TL teklif ediyoruz. Eğer kabul edersek, hemen işlemimizi tamamlamaya hazırmız.
+
+Teşekkür ederim,
+[Your Name]"
+                class="bg-yellow-400 text-black px-3 py-1 rounded hover:bg-yellow-500 transition">
+                📋 Copy Message
+            </button>
+            </td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script>
+            function copyToClipboard(button) {
+                const message = button.getAttribute("data-message");
+                navigator.clipboard.writeText(message).then(function() {
+                    button.innerText = "✅ Copied!";
+                    setTimeout(() => button.innerText = "📋 Copy Message", 2000);
+                });
+            }
+        </script>
+        
+        </div>
+    </body>
+    </html>
+    
